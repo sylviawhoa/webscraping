@@ -1,0 +1,1 @@
+cat out.txt.gz | gunzip -c | head -n 10000 | gzip -c > outputbig.gz
